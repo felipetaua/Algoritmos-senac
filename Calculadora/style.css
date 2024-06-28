@@ -1,0 +1,71 @@
+h1{
+    text-align: center;
+}
+
+body{
+    background-image: radial-gradient(circle at 56.16% 120.44%, #b0e1de 0, #afe1e2 8.33%, #afe1e6 16.67%, #afe0ea 25%, #b0e0ed 33.33%, #b2dff0 41.67%, #b5def2 50%, #b8ddf4 58.33%, #bcdcf6 66.67%, #c0dbf7 75%, #c5daf7 83.33%, #cad8f7 91.67%, #cfd7f7 100%);
+    height: 100vh;
+}
+.painel{
+    border: 1px solid #4b6a80;
+    background-color: #f0ecec;
+    width: 480px;
+    height: 480px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+   
+}
+
+#n1, #n2{
+    width: 310px;   /*largura do input*/
+    height: 30px;   /*altura do input*/
+    text-align: center;     /*centralizar*/
+    border-radius: 10px;    /*arredondar*/
+    border: none;   /*tirar borda*/
+}
+
+.botao{
+    background-color:rgb(127, 200, 243);   /*cor do fundo*/
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    padding: 10px;   /*espaçamento interno*/
+    margin: 5px;    /*espaço externo*/
+    border: none;   /* tirar borda*/
+    border-radius: 35%;     /*arredondar borda*/
+    box-shadow: 1px 1px 4px rgb(143, 201, 209); /*sombra botão*/
+}
+
+.botaoLimpar{
+    background-color:rgb(127, 200, 243);   /*cor do fundo*/
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    padding: 10px;   /*espaçamento interno*/
+    margin: 5px;    /*espaço externo*/
+    border: none;   /* tirar borda*/
+    border-radius: 35%;     /*arredondar borda*/
+    box-shadow: 1px 1px 4px rgb(143, 201, 209); /*sombra botão*/
+}
+
+.botao:hover{
+    background-color: cornflowerblue;
+    color: black;
+    box-shadow: 1px 1px 4px white;
+    transition: 0.5s;
+}
+
+.botaoLimpar:hover{
+    background-color: cornflowerblue;
+    color: black;
+    box-shadow: 1px 1px 4px white;
+    transition: 0.5s;
+}
+
+#resultado{
+    font-size: 40px;
+    color: grey;
+    margin-top: 30px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title> Calculadora</title>
+</head>
+<body>
+    <div class="painel">
+        <h1>Calculadora</h1>
+
+        <p>Digite um número</p>
+        <input type="number" id="n1" placeholder="Coloque o primeiro numero: 1 ">
+
+        <p>Digite um número</p>
+        <input type="number" id="n2" placeholder="Coloque o segundo numero: 2 ">
+
+        <br><br>
+
+        <button class="botao" onclick="somar()"> <i class="fa-solid fa-plus"></i> </button>
+        <button class="botao" onclick="subtrair()"><i class="fa-solid fa-minus"></i></button>
+        <button class="botao" onclick="multiplicar()"> <i class="fa-solid fa-xmark"></i> </button>
+        <button class="botao" onclick="dividir()"> <i class="fa-solid fa-divide"></i> </button>
+        <button class="botaoLimpar" onclick="limpar()"> <i class="fa-solid fa-c"></i> </button>
+
+        <div id="resultado">Hello Word!</div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
